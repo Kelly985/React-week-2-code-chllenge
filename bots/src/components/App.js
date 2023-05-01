@@ -15,6 +15,12 @@ function App() {
       .catch((error) => console.log(error));
   }, []);
 
+  const enlistBot = (bot) => {
+    if (!army.find((b) => b.id === bot.id)) {
+      setArmy([...army, bot]);
+    }
+  };
+
 }
 
 export default App;
