@@ -21,6 +21,13 @@ function App() {
     }
   };
 
+  const dischargeBot = (bot) => {
+    setArmy(army.filter((b) => b.id !== bot.id));
+  };
+
+
+  
+
 }
 
 export default App;
