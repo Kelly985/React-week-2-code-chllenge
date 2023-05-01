@@ -26,7 +26,17 @@ function App() {
   };
 
 
-  
+  const deleteBot = (bot) => {
+    fetch(`https://bot-data-sjme.onrender.com/bots/${bot.id}`, {
+      method: "DELETE",
+    })
+      .then(() => {
+        setArmy(army.filter((b) => b.id !== bot.id));
+        setBots(bots.filter((b) => b.id !== bot.id));
+      })
+      .catch((error) => console.log(error));
+  };
+
 
 }
 
