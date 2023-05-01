@@ -37,6 +37,17 @@ function App() {
       .catch((error) => console.log(error));
   };
 
+  return (
+    <div className="App">
+      <h1>Bot-O-Mat</h1>
+      <h2>Bot Collection</h2>
+      <BotCollection bots={bots} enlistBot={enlistBot} />
+      <h2>Your Bot Army</h2>
+      <YourBotArmy army={army} dischargeBot={dischargeBot} deleteBot={deleteBot} />
+    </div>
+  );
+
+
 
 }
 
