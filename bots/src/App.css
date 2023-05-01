@@ -2,3 +2,91 @@
   text-align: center;
 }
 
+
+.bot {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.bot img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.bot button {
+  margin-top: 10px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.bot button:hover {
+  background-color: #005F6B;
+}
+
+
+
+.your-bot-army {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bot-card {
+  margin: 10px;
+  width: 250px;
+  height: 200px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bot-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.bot-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.bot-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+button {
+  background-color: #5cda69;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #cf2020;
+}
+
