@@ -1,6 +1,6 @@
 Bot Battlr - React JS Web App
 
-Deployed project link :  
+Deployed project link :   https://react-week-2-code-chllenge.vercel.app/
 
 
 **Introduction
